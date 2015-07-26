@@ -18,6 +18,20 @@ class MyOppaiViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+
+
+
+        // 1) まずNSStringつくる
+        let s = "http://google.com"
+        // 2) これからNSURLをつくる
+        let url = NSURL(string: s)
+        // 3) このurlからNSURLRequestをつくる
+        let req = NSURLRequest(URL: url!)
+        // 4) このreqを、selfのmyWebView（と名前つけたやつ）に食わせる
+        self.myWebView.loadRequest(req)
+
+
+
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC525331B6520F000E22FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC525321B6520F000E22FED /* AppDelegate.swift */; };
+		7CC525361B6520F000E22FED /* iOppai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CC525341B6520F000E22FED /* iOppai.xcdatamodeld */; };
+		7CC525381B6520F000E22FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC525371B6520F000E22FED /* ViewController.swift */; };
+		7CC5253B1B6520F000E22FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC525391B6520F000E22FED /* Main.storyboard */; };
+		7CC5253D1B6520F000E22FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5253C1B6520F000E22FED /* Images.xcassets */; };
+		7CC525401B6520F000E22FED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5253E1B6520F000E22FED /* LaunchScreen.xib */; };
+		7CC5254C1B6520F000E22FED /* iOppaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5254B1B6520F000E22FED /* iOppaiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC525461B6520F000E22FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC525251B6520F000E22FED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC5252C1B6520F000E22FED;
+			remoteInfo = iOppai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC5252D1B6520F000E22FED /* iOppai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOppai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC525311B6520F000E22FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC525321B6520F000E22FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC525351B6520F000E22FED /* iOppai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOppai.xcdatamodel; sourceTree = "<group>"; };
+		7CC525371B6520F000E22FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC5253A1B6520F000E22FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC5253C1B6520F000E22FED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CC5253F1B6520F000E22FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7CC525451B6520F000E22FED /* iOppaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOppaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC5254A1B6520F000E22FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC5254B1B6520F000E22FED /* iOppaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOppaiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC5252A1B6520F000E22FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC525421B6520F000E22FED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC525241B6520F000E22FED = {
+			isa = PBXGroup;
+			children = (
+				7CC5252F1B6520F000E22FED /* iOppai */,
+				7CC525481B6520F000E22FED /* iOppaiTests */,
+				7CC5252E1B6520F000E22FED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC5252E1B6520F000E22FED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5252D1B6520F000E22FED /* iOppai.app */,
+				7CC525451B6520F000E22FED /* iOppaiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC5252F1B6520F000E22FED /* iOppai */ = {
+			isa = PBXGroup;
+			children = (
+				7CC525321B6520F000E22FED /* AppDelegate.swift */,
+				7CC525371B6520F000E22FED /* ViewController.swift */,
+				7CC525391B6520F000E22FED /* Main.storyboard */,
+				7CC5253C1B6520F000E22FED /* Images.xcassets */,
+				7CC5253E1B6520F000E22FED /* LaunchScreen.xib */,
+				7CC525341B6520F000E22FED /* iOppai.xcdatamodeld */,
+				7CC525301B6520F000E22FED /* Supporting Files */,
+			);
+			path = iOppai;
+			sourceTree = "<group>";
+		};
+		7CC525301B6520F000E22FED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC525311B6520F000E22FED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CC525481B6520F000E22FED /* iOppaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5254B1B6520F000E22FED /* iOppaiTests.swift */,
+				7CC525491B6520F000E22FED /* Supporting Files */,
+			);
+			path = iOppaiTests;
+			sourceTree = "<group>";
+		};
+		7CC525491B6520F000E22FED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CC5254A1B6520F000E22FED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC5252C1B6520F000E22FED /* iOppai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC5254F1B6520F000E22FED /* Build configuration list for PBXNativeTarget "iOppai" */;
+			buildPhases = (
+				7CC525291B6520F000E22FED /* Sources */,
+				7CC5252A1B6520F000E22FED /* Frameworks */,
+				7CC5252B1B6520F000E22FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOppai;
+			productName = iOppai;
+			productReference = 7CC5252D1B6520F000E22FED /* iOppai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC525441B6520F000E22FED /* iOppaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC525521B6520F000E22FED /* Build configuration list for PBXNativeTarget "iOppaiTests" */;
+			buildPhases = (
+				7CC525411B6520F000E22FED /* Sources */,
+				7CC525421B6520F000E22FED /* Frameworks */,
+				7CC525431B6520F000E22FED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC525471B6520F000E22FED /* PBXTargetDependency */,
+			);
+			name = iOppaiTests;
+			productName = iOppaiTests;
+			productReference = 7CC525451B6520F000E22FED /* iOppaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC525251B6520F000E22FED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Hiromu Ochiai";
+				TargetAttributes = {
+					7CC5252C1B6520F000E22FED = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7CC525441B6520F000E22FED = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7CC5252C1B6520F000E22FED;
+					};
+				};
+			};
+			buildConfigurationList = 7CC525281B6520F000E22FED /* Build configuration list for PBXProject "iOppai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC525241B6520F000E22FED;
+			productRefGroup = 7CC5252E1B6520F000E22FED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC5252C1B6520F000E22FED /* iOppai */,
+				7CC525441B6520F000E22FED /* iOppaiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC5252B1B6520F000E22FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC5253B1B6520F000E22FED /* Main.storyboard in Resources */,
+				7CC525401B6520F000E22FED /* LaunchScreen.xib in Resources */,
+				7CC5253D1B6520F000E22FED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC525431B6520F000E22FED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC525291B6520F000E22FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC525381B6520F000E22FED /* ViewController.swift in Sources */,
+				7CC525331B6520F000E22FED /* AppDelegate.swift in Sources */,
+				7CC525361B6520F000E22FED /* iOppai.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC525411B6520F000E22FED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC5254C1B6520F000E22FED /* iOppaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC525471B6520F000E22FED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC5252C1B6520F000E22FED /* iOppai */;
+			targetProxy = 7CC525461B6520F000E22FED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC525391B6520F000E22FED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC5253A1B6520F000E22FED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC5253E1B6520F000E22FED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC5253F1B6520F000E22FED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC5254D1B6520F000E22FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC5254E1B6520F000E22FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC525501B6520F000E22FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOppai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CC525511B6520F000E22FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOppai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CC525531B6520F000E22FED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOppaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOppai.app/iOppai";
+			};
+			name = Debug;
+		};
+		7CC525541B6520F000E22FED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOppaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOppai.app/iOppai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC525281B6520F000E22FED /* Build configuration list for PBXProject "iOppai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC5254D1B6520F000E22FED /* Debug */,
+				7CC5254E1B6520F000E22FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC5254F1B6520F000E22FED /* Build configuration list for PBXNativeTarget "iOppai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC525501B6520F000E22FED /* Debug */,
+				7CC525511B6520F000E22FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CC525521B6520F000E22FED /* Build configuration list for PBXNativeTarget "iOppaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC525531B6520F000E22FED /* Debug */,
+				7CC525541B6520F000E22FED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CC525341B6520F000E22FED /* iOppai.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CC525351B6520F000E22FED /* iOppai.xcdatamodel */,
+			);
+			currentVersion = 7CC525351B6520F000E22FED /* iOppai.xcdatamodel */;
+			path = iOppai.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CC525251B6520F000E22FED /* Project object */;
+}

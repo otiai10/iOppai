@@ -10,6 +10,10 @@ import UIKit
 
 class MyOppaiViewController: UIViewController {
 
+    // これが追加されて
+    // このクラスのプロパティとしてアクセスできるようになった（はず）
+    @IBOutlet weak var myWebView: UIWebView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

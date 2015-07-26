@@ -14,6 +14,7 @@
 		7CC5253D1B6520F000E22FED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5253C1B6520F000E22FED /* Images.xcassets */; };
 		7CC525401B6520F000E22FED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC5253E1B6520F000E22FED /* LaunchScreen.xib */; };
 		7CC5254C1B6520F000E22FED /* iOppaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC5254B1B6520F000E22FED /* iOppaiTests.swift */; };
+		7CC525561B65243A00E22FED /* MyOppaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC525551B65243A00E22FED /* MyOppaiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		7CC525451B6520F000E22FED /* iOppaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOppaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CC5254A1B6520F000E22FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CC5254B1B6520F000E22FED /* iOppaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOppaiTests.swift; sourceTree = "<group>"; };
+		7CC525551B65243A00E22FED /* MyOppaiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyOppaiViewController.swift; path = ../MyOppaiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		7CC5252F1B6520F000E22FED /* iOppai */ = {
 			isa = PBXGroup;
 			children = (
+				7CC525551B65243A00E22FED /* MyOppaiViewController.swift */,
 				7CC525321B6520F000E22FED /* AppDelegate.swift */,
 				7CC525371B6520F000E22FED /* ViewController.swift */,
 				7CC525391B6520F000E22FED /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC525561B65243A00E22FED /* MyOppaiViewController.swift in Sources */,
 				7CC525381B6520F000E22FED /* ViewController.swift in Sources */,
 				7CC525331B6520F000E22FED /* AppDelegate.swift in Sources */,
 				7CC525361B6520F000E22FED /* iOppai.xcdatamodeld in Sources */,
